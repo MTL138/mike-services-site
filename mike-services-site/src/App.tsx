@@ -254,7 +254,7 @@ export default function App() {
 
       <footer className="py-8 border-t text-sm text-slate-600">
         <Section className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div>© {new Date().getFullYear()} Mike Services. {t("保留所有權利。", "All rights reserved.")}</div>
+          <div>© {new Date().getFullYear()} Workaround Guru. {t("保留所有權利。", "All rights reserved.")}</div>
           <div className="flex items-center gap-3">
             <a className="underline-offset-4 hover:underline" href="#services">{t("服務內容", "Services")}</a>
             <a className="underline-offset-4 hover:underline" href="#faq">FAQ</a>
