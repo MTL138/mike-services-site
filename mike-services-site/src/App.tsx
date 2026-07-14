@@ -188,8 +188,8 @@ export default function App() {
             <h4 className="font-semibold">{t("服務地區？", "Service Areas")}</h4>
             <p className="mt-2 text-sm text-slate-600">
               {t(
-                "以德州休士頓一帶為主，視情況提供遠端支援。",
-                "Primarily Greater Houston, Texas; remote support available when appropriate."
+                "以德州一帶為主，視情況提供遠端支援。",
+                "Primarily Texas; remote support available when appropriate."
               )}
             </p>
           </div>
@@ -224,11 +224,11 @@ export default function App() {
           <div className="mt-6 grid sm:grid-cols-2 gap-4">
             <a
               className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
-              href="mailto:leetzonghann@gmail.com"
+              href="mailto:contact@workaround.guru"
             >
               <Mail className="size-5" />
               <span className="font-medium">Email</span>
-              <span className="text-slate-500">leetzonghann@gmail.com</span>
+              <span className="text-slate-500">contact@workaround.guru</span>
             </a>
             <a
               className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
