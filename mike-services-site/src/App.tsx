@@ -69,7 +69,7 @@ export default function App() {
               <Home className="size-5" />
             </div>
             <div className="leading-tight">
-              <div className="text-base sm:text-lg">Mike Services 邁客服務</div>
+              <div className="text-base sm:text-lg">Workaround Guru 德州萬事通</div>
               <div className="text-xs text-slate-500">IT · 小修繕 · 房屋仲介 · 智慧家庭</div>
             </div>
           </div>
