@@ -238,7 +238,7 @@ export default function App() {
             >
               <Facebook className="size-5" />
               <span className="font-medium">Facebook</span>
-              <span className="text-slate-500">@Mike Services</span>
+              <span className="text-slate-500">@Workaround Guru</span>
             </a>
             <a
               className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
