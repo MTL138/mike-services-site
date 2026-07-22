@@ -17,7 +17,7 @@ function Section({ id, children, className = "" }: { id?: string; children: Reac
 }
 
 export default function App() {
-  const [lang, setLang] = useState<"zh" | "en">("zh");
+  const [lang, setLang] = useState<"zh" | "en">("en");
 
   const t = (zh: string, en: string) => (lang === "zh" ? zh : en);
 
