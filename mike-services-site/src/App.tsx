@@ -229,9 +229,7 @@ export default function App() {
               <Mail className="size-5" />
               <span className="font-medium">Email</span>
               <span className="text-slate-500">contact@workaround.guru</span>
-            </a>
-            <a
-              
+            </a>       
           </div>
         </div>
       </Section>
