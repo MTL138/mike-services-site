@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Home, Wrench, MonitorSmartphone, KeyRound, Bolt, MessageSquare, Mail, Facebook, Sparkles } from "lucide-react";
+import { Home, Wrench, MonitorSmartphone, KeyRound, Bolt, Mail, Sparkles } from "lucide-react";;
 
 function Tag({ children }: { children: React.ReactNode }) {
   return (
@@ -221,7 +221,7 @@ export default function App() {
             )}
           </p>
 
-          <div className="mt-6 grid sm:grid-cols-2 gap-4">
+          <div className="mt-6 grid sm:grid-cols-1 max-w-md gap-4">
             <a
               className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
               href="mailto:contact@workaround.guru"
@@ -231,23 +231,7 @@ export default function App() {
               <span className="text-slate-500">contact@workaround.guru</span>
             </a>
             <a
-              className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
-              href="https://www.facebook.com/profile.php?id=61551648542207"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Facebook className="size-5" />
-              <span className="font-medium">Facebook</span>
-              <span className="text-slate-500">@Workaround Guru</span>
-            </a>
-            <a
-              className="rounded-2xl border p-4 hover:bg-slate-50 flex items-center gap-3"
-              href="https://m.me/61551648542207" target="_blank" rel="noreferrer"
-            >
-              <MessageSquare className="size-5" />
-              <span className="font-medium">Messenger</span>
-              <span className="text-slate-500">Chat now</span>
-            </a>
+              
           </div>
         </div>
       </Section>
